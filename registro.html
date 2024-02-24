@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <title>Registro Hotelia</title>
+</head>
+<body>
+    <section>
+        <div>
+            <img src="./img/Hotelia horizontal blanco.svg">
+        </div>
+        <h2>Eres mas que bienvenido</h2>
+    </section>
+    
+    <section class="form-register">
+        <h1>Registrate</h1>
+        <label for="tipod">Tipo de Documento</label>
+        <select name="tipod" id="tipod">
+            <option value="0">Escoja una opcion</option>
+            <option value="1">Cedula de Ciudadania</option>
+            <option value="2">Cedula Extranjera</option>
+            <option value="3">Tarjeta de Identidad</option>
+        </select>
+        <label for="documento">Numero de documento</label>
+            <input class="controls" type="text" name="documento" id="documento">
+        <label for="nombres">Nombres</label>
+            <input class="controls" type="text" name="nombres" id="nombres">
+        <label for="apellidos">Apellidos</label>
+            <input class="controls" type="text" name="apellidos" id="apellidos">
+        <label for="fechan">Fecha nacimiento</label>
+            <input class="controls" type="date" name="fechan" id="fechan">
+        <label for="genero">Genero</label>
+            <input type="radio" checked name="genero">Mujer
+            <input type="radio" name="genero">Hombre
+            <input type="radio" name="genero">Otro
+        <label for="email">Email</label>
+            <input class="controls" type="email" name="email" id="email">
+        <label for="telefono">Telefono de contacto</label>
+            <input class="controls" type="text" name="telefono" id="telefono">
+        <label for="pais">Pais de origen</label>
+        <select name="tipod" id="tipod">
+            <option value="0"></option>
+            <option value="1">Colombia</option>
+            <option value="2">Estados Unidos</option>
+            <option value="3">España</option>
+        </select>
+        <label for="foto">Foto</label>
+            <input class="controls" type="file" name="foto">
+        <label for="contraseña">Contraseña</label>
+            <input class="controls" type="password" name="contraseña" id="contraseña">
+        <label for="confirmacion">Confirmar contraseña</label>
+            <input class="controls" type="password" name="confirmacion" id="confirmacion">
+        <input type="checkbox" name="terminos" id="terminos">Acepto <a href="#">Terminos y Condiciones</a>
+            <input class="controls" type="submit" value="Ingresar">
+    
+
+    </section>
+</body>
+</html>
